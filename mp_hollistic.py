@@ -12,11 +12,10 @@ mp_draw = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 
 # input = 1
-input = 'video_downsample.mp4' #'Videos_2795742.mp4'
 
 def PoseEstimation():
     # Get webcam input
-    # cap = cv2.VideoCapture(input) # 'Videos/no-leg-ball.mp4'
+    # cap = cv2.VideoCapture(input)
     
     piCam=Picamera2()
     piCam.preview_configuration.main.size=(1280,720)
